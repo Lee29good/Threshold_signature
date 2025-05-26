@@ -22,12 +22,16 @@
 
 1. **基於 ECDSA (Elliptic Curve Digital Signature Algorithm)**  
    利用傳統橢圓曲線簽章演算法實現門檻簽章的分割與合成。
+
    File : ECDSA_Threshold_Signature
+
    package : ecdsa , 	pycryptodome
 
 2. **基於 BLS (Boneh–Lynn–Shacham) 簽章**  
    利用 BLS 簽章的聚合特性實現更高效的門檻簽章，適合分散式系統與區塊鏈場景。
+
    File : BLS_Threshold_Signature
+   
    package : py_ecc
 ---
 
@@ -35,7 +39,7 @@
 
 - Python 3.11.9
 - macOS 開發系統
-- 相關依賴請參考 `requirements.txt` （如有）
+- 相關依賴請參考 `requirements.txt`
 
 ---
 
